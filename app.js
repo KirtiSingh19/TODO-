@@ -3,7 +3,7 @@ const mongoose=require('mongoose')
 const app=express()
 const path=require('path')
 const mainRouter=require('./routes/index');
-const PORT=process.env.PORT || 3000;
+const PORT=process.env.PORT || 4000;
 app.use(express.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.set('view engine','ejs');
